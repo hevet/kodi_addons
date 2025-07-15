@@ -28,34 +28,6 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>	
-	<addon id="plugin.video.upcgo" name="UPC GO" version="1.0.1" provider-name="lg">
-		<requires>
-			<import addon="script.module.requests" />
-			<import addon="script.module.inputstreamhelper" />
-		
-		</requires>
-		<extension point="xbmc.python.pluginsource" library="addon.py">
-			<provides>video</provides>
-		</extension>
-		<extension point="xbmc.service" library="serverHTTP.py" />
-		<extension point="xbmc.addon.metadata">
-			<description lang="pl">UPC GO</description>
-			<disclaimer lang="pl">UPC GO
-			</disclaimer>
-			<summary lang="en">UPC GO</summary>
-			<description lang="en">UPC GO</description>
-			<disclaimer lang="en">UPC GO
-			</disclaimer>
-			<language>pl</language>
-			<platform>all</platform>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-			<website>https://www.upctv.pl/</website>
-			<assets>
-				<icon>icon.png</icon>
-			</assets>
-			<reuselanguageinvoker>true</reuselanguageinvoker>
-		</extension>
-	</addon>
 	<addon id="plugin.video.onet" name="ONET" version="1.0.7" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
@@ -186,7 +158,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.audio.moje_pr" name="Moje PolskieRadio" version="1.0.3" provider-name="lg">
+	<addon id="plugin.audio.moje_pr" name="Moje PolskieRadio" version="1.0.4" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -264,7 +236,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.wppilot" name="Pilot WP" version="1.0.6" provider-name="lg">
+	<addon id="plugin.video.wppilot" name="Pilot WP" version="1.0.8" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -342,7 +314,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.play_now" name="Play Now" version="1.0.6" provider-name="lg">
+	<addon id="plugin.video.play_now" name="Play Now" version="1.0.9" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -447,7 +419,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.se" name="SuperExpress video" version="1.0.5" provider-name="lg">
+	<addon id="plugin.video.se" name="SuperExpress video" version="1.0.7" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -551,7 +523,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.playpuls" name="Play PULS" version="1.0.3" provider-name="lg">
+	<addon id="plugin.video.playpuls" name="Play PULS" version="1.0.4" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -603,7 +575,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.mubi" name="MUBI" version="1.0.2" provider-name="lg">
+	<addon id="plugin.video.mubi" name="MUBI" version="1.0.3" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -629,7 +601,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.parlament" name="Parlament" version="1.0.3" provider-name="lg">
+	<addon id="plugin.video.parlament" name="Parlament" version="1.0.4" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -681,7 +653,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.trwam" name="TV TRWAM" version="1.0.6" provider-name="lg">
+	<addon id="plugin.video.trwam" name="TV TRWAM" version="1.0.8" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -707,7 +679,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.polsatbox_go_atv" name="PolsatBoxGO 4K" version="1.0.6" provider-name="lg">
+	<addon id="plugin.video.polsatbox_go_atv" name="PolsatBoxGO 4K" version="1.0.7" provider-name="lg">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
 			<import addon="script.module.requests"/>
@@ -917,7 +889,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.esesja" name="eSesja.tv" version="1.0.1" provider-name="lg">
+	<addon id="plugin.video.esesja" name="eSesja.tv" version="1.0.2" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
