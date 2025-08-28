@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<addon id="plugin.video.interia_tv" name="Interia" version="1.0.2" provider-name="lg">
+<addon id="plugin.video.orange_go" name="Orange Go" version="1.0.0" provider-name="lg">
     <requires>
-		<import addon="script.module.requests" />
-		<import addon="script.module.inputstreamhelper" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.inputstreamhelper" />
+	<import addon="script.module.js2py" version="3.0.2"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
     </extension>
- 	<extension point="xbmc.addon.metadata">
-        <description lang="pl">Interia</description>
-        <disclaimer lang="pl">Interia
+	<extension point="xbmc.addon.metadata">
+        <description lang="pl">Orange Go</description>
+        <disclaimer lang="pl">Orange Go
         </disclaimer>
-        <summary lang="en">Interia</summary>
-        <description lang="en">Interia</description>
-        <disclaimer lang="en">Interia
+        <summary lang="en">Orange Go</summary>
+        <description lang="en">Orange Go</description>
+        <disclaimer lang="en">Orange Go
         </disclaimer>
         <language>pl</language>
         <platform>all</platform>
