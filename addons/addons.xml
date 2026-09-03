@@ -106,7 +106,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.audio.eurozet" name="Eurozet Radio" version="1.0.2" provider-name="lg">
+	<addon id="plugin.audio.eurozet" name="Eurozet Radio" version="1.0.3" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 		</requires>
@@ -705,7 +705,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.audio.zpr" name="ZPR Radio" version="1.0.4" provider-name="lg">
+	<addon id="plugin.audio.zpr" name="ZPR Radio" version="1.0.5" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 		<import addon="script.module.inputstreamhelper" />
