@@ -28,7 +28,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>	
-	<addon id="plugin.video.onet" name="ONET" version="1.0.8" provider-name="lg">
+	<addon id="plugin.video.onet" name="ONET" version="1.0.9" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -80,7 +80,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.wp" name="WP" version="1.0.8" provider-name="lg">
+	<addon id="plugin.video.wp" name="WP" version="1.0.9" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -392,7 +392,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.se" name="SuperExpress video" version="1.0.7" provider-name="lg">
+	<addon id="plugin.video.se" name="SuperExpress video" version="1.0.8" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -444,7 +444,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.fakt" name="FAKT" version="1.0.2" provider-name="lg">
+	<addon id="plugin.video.fakt" name="FAKT" version="1.0.3" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -470,7 +470,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.jambox" name="JAMBOX GO" version="1.0.4" provider-name="lg">
+	<addon id="plugin.video.jambox" name="JAMBOX GO" version="1.0.5" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 		<import addon="script.module.inputstreamhelper" />
@@ -626,7 +626,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.trwam" name="TV TRWAM" version="1.0.8" provider-name="lg">
+	<addon id="plugin.video.trwam" name="TV TRWAM" version="1.0.9" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -635,11 +635,11 @@
 			<provides>video</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<description lang="pl">TV TRWAM, EWTN Polska, Transmisje z Jasnej Góry, TV Republika, wPolsce, TV MN, Polska360 TV</description>
+			<description lang="pl">TV TRWAM</description>
 			<disclaimer lang="pl">TV TRWAM
 			</disclaimer>
 			<summary lang="en">TV TRWAM</summary>
-			<description lang="en">TV TRWAM, EWTN Polska, Transmisje z Jasnej Góry, TV Republika, wPolsce, TV MN, Polska360 TV</description>
+			<description lang="en">TV TRWAM</description>
 			<disclaimer lang="en">TV TRWAM
 			</disclaimer>
 			<language>pl</language>
